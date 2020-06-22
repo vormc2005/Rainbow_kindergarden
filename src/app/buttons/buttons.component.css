@@ -1,0 +1,36 @@
+
+
+
+.card{
+    /* align-items: center;
+    justify-content: center; */
+    background-color: brown;
+    width: 250px;
+    border-radius: 10px;
+    
+   
+
+}
+.link-group{
+ 
+   position: absolute;   
+   left:50%;   
+   transform:translate(-50%, -50%);
+   text-align: center;
+    
+}
+.descriptionLinks{
+   
+    display: inline-flex;   
+    min-height: 100px;   
+    text-align: center;
+    margin: 30px; 
+    text-decoration: none;
+    
+   
+} 
+
+a{
+    text-decoration: none;
+    color: white;
+}
