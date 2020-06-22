@@ -16,5 +16,7 @@ export class ButtonsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+onClick(buttonClicked){
+  console.log(buttonClicked)
+}
 }

@@ -4,7 +4,8 @@
 <div class="descriptionLinks" *ngFor="let buttonEl of buttons">
 <div class="card clearfix" style= "height: 100px;">
     <div class="card-body">
-    <a href="#" class="card-link">
+    <a href="#" class="card-link"
+    (click)="onClick(buttonEl.name)">
       <h5 class="card-title">{{buttonEl.name}}</h5>
      
       <p class="card-text">{{buttonEl.description}}</p>
