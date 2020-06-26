@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-links-display',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./links-display.component.css']
 })
 export class LinksDisplayComponent implements OnInit {
+@Input() infoToDisplay: string = ""
 
   constructor() { }
 
