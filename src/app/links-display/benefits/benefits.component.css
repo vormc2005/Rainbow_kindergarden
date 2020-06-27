@@ -1,5 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
 .benefits{
    
     
-    
+    border: black 1px solid;
+    border-radius: 10px;
+    z-index: 5px;
+    background-color: white;
+}
+img.cardImage{
+  max-width: 100%;
+}
+li{
+    font-family: 'Pangolin', cursive;
+    font-size: 18px;
+}
+h2{
+    text-align: center;
 }

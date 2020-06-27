@@ -12,7 +12,7 @@ export class ButtonsComponent implements OnInit {
   
 
   buttons: Button[] = [
-    new Button('Benefits', 'Why should you choose our kindergarden?'),
+    new Button('Benefits', 'Why should you choose our daycare?'),
     new Button('Education', 'What do our kids learn'),
     new Button('Games', 'See how our kids are intertained')
   ];

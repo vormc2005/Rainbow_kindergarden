@@ -1,0 +1,22 @@
+.contactinfo{ 
+background-color: white;
+opacity: .95;
+position: relative;
+margin-left: 50%;
+margin-top: 10%;
+transform: translate(-50%); 
+border: 1px black solid; 
+ width: 350px;
+ padding: 10px;
+border-radius: 5px;
+    
+}
+h2{
+    text-align: center;
+}
+p{
+    font-size: 18px;
+}
+p, h2 {
+    margin-left: 20px;
+}

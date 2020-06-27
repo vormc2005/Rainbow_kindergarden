@@ -21,7 +21,11 @@ export class AboutComponent implements OnInit {
   typeToPass(data){
     // console.log(data)
     // this.dataToLinksDisplay.emit(data)
+    if(data){
     this.buttonTypePressed =data 
+    }else{
+      this.buttonTypePressed=""
+    }
     console.log(this.buttonTypePressed)
     }
 

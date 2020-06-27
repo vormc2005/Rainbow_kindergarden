@@ -1,8 +1,8 @@
-
-button.card-link{
-   
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+button.card-link{   
     width: 200px;
-    min-height: 100px;
+    min-height: 150px;
+    border-radius: 10px;
 }
 
 
@@ -12,7 +12,6 @@ button.card-link{
    transform:translateX(-50%); */
    text-align: center;
     /* margin-top: 30%; */
- 
     
 }
 .descriptionLinks{
@@ -20,16 +19,26 @@ button.card-link{
     display: inline-flex;   
     min-height: 100px;   
     text-align: center;
-    margin: 30px; 
-    text-decoration: none;
-    
+    margin: 20px; 
+    text-decoration: none;   
    
 } 
+.link-group{
+    /* margin-bottom:10 */
+    /* position:sticky; */
+    bottom:0;
+    margin-top: 150px;
+    
+}
+h3, p{
+    font-family: 'Pangolin', cursive;
+}
+h3{
+    font-weight: bolder;
+}
+p{
+    font-size: 16px;
+}
 
-a{
-    text-decoration: none;
-    color: white;
-}
-div .container .displaydata{
-    height:auto
-}
+
+

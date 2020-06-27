@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html{
+    height: 100vh;
+}
 /* .app{
     width: 50vw;
     height: 100vh;
@@ -19,4 +22,8 @@
     padding: 30px;
     
 } */
-
+.app {
+    height: 100vh;
+    background-image: url("../assets/img/background.jpg");
+    background-color: #cccccc;
+   }

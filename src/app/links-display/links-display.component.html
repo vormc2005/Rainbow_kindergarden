@@ -1,5 +1,5 @@
 
-<div class="row displaydata">
+<div class="row displaydata " (click)="resetInfoToDisplay()">
 <div class="container "> 
 <app-games *ngIf ="infoToDisplay === 'Games'"></app-games>
 <app-education *ngIf ="infoToDisplay === 'Education'"></app-education>

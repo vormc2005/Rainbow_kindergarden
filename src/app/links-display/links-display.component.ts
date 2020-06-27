@@ -12,5 +12,7 @@ export class LinksDisplayComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  resetInfoToDisplay(){
+    this.infoToDisplay = ""
+  }
 }
