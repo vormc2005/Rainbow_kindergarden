@@ -8,6 +8,7 @@ import { BenefitsComponent } from './links-display/benefits/benefits.component';
 import { GamesComponent } from './links-display/games/games.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { LinksDisplayComponent } from './links-display/links-display.component';
+import { MessageComponent } from './message/message.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LinksDisplayComponent } from './links-display/links-display.component';
     BenefitsComponent,
     GamesComponent,
     ButtonsComponent,
-    LinksDisplayComponent
+    LinksDisplayComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule

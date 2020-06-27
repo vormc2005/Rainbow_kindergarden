@@ -1,6 +1,14 @@
 <app-header></app-header>
-<app-links-display
 
-[infoToDisplay]= "buttonTypePressed"></app-links-display>
-<app-buttons 
-(optionClicked)="typeToPass($event)"></app-buttons>
+   
+        <app-message></app-message>
+    
+   
+        <app-links-display 
+        [infoToDisplay]="buttonTypePressed">
+        </app-links-display>
+   
+    <br>
+   
+        <app-buttons (optionClicked)="typeToPass($event)"></app-buttons>
+  

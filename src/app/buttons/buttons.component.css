@@ -13,11 +13,12 @@
 }
 .link-group{
  
-   position: absolute;   
+   position: relative;;   
    left:50%;   
    transform:translate(-50%, -50%);
    text-align: center;
-   top:70%
+  margin-top: 150px;
+ 
     
 }
 .descriptionLinks{
@@ -34,4 +35,7 @@
 a{
     text-decoration: none;
     color: white;
+}
+div .container .displaydata{
+    height:auto
 }
