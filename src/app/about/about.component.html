@@ -1,0 +1,8 @@
+
+<app-message></app-message> 
+  <!-- Display information about feature pressed(education, games, Benefits) -->
+<app-links-display 
+[infoToDisplay]="buttonTypePressed">
+</app-links-display>   
+<app-buttons (optionClicked)="typeToPass($event)"></app-buttons>
+        

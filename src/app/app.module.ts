@@ -9,6 +9,10 @@ import { GamesComponent } from './links-display/games/games.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { LinksDisplayComponent } from './links-display/links-display.component';
 import { MessageComponent } from './message/message.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { AppRoutingModule } from './app-router.module';
+import { OurstaffComponent } from './ourstaff/ourstaff.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +23,14 @@ import { MessageComponent } from './message/message.component';
     GamesComponent,
     ButtonsComponent,
     LinksDisplayComponent,
-    MessageComponent
+    MessageComponent,
+    AboutComponent,
+    ContactComponent,
+    OurstaffComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

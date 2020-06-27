@@ -1,23 +1,18 @@
 
-
-
-.card{
-    /* align-items: center;
-    justify-content: center; */
-    background-color: brown;
-    width: 250px;
-    border-radius: 10px;
-    
+button.card-link{
    
-
+    width: 200px;
+    min-height: 100px;
 }
+
+
 .link-group{
  
-   position: relative;;   
-   left:50%;   
-   transform:translate(-50%, -50%);
+   
+   margin-left:50%;   
+   transform:translateX(-50%);
    text-align: center;
-  margin-top: 150px;
+    margin-top: 150px;
  
     
 }

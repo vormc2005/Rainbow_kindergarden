@@ -1,17 +1,15 @@
 .messagecard{
-    width: 80%;
-    position: relative;   
-    margin-left:50%;   
-    transform:translate(-50%, -50%);
-    text-align: center;
-  margin-top: -10px;
   
-
+    width: 80%;      
+    margin-left:50%;   
+    transform:translateX(-50%);
+    text-align: center;
+  
     
 }
 
-.imgandtext{
-   width:100%;
+.imgandtext{  
+    width:100%;
     display: inline-block;
     background-color: blueviolet;
 }
