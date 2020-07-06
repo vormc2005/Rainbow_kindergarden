@@ -14,9 +14,11 @@ export class ButtonsComponent implements OnInit {
 
 
   buttons: Button[] = [
-    new Button('Benefits', 'Why should you choose our daycare?', 'О нашем садике', 'RusDesc'),
+    new Button('About Us', '', 'О нашем садике', 'RusDesc'),
+    new Button('Benefits', 'Why should you choose our daycare?', 'Наши отличия от других детских садов', 'RusDesc'),
     new Button('Education', 'What do our kids learn', 'Образовательная программа', "Rusdesc"),
     new Button('Games', 'See how our kids are intertained', 'Как наши дети развлекаются', 'RusDesc')
+    
   ];
   constructor() { }
 

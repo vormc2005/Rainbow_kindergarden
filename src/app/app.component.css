@@ -22,8 +22,10 @@ html{
     padding: 30px;
     
 } */
-.app {
+.app {   
     height: 100vh;
-    background-image: url("../assets/img/background.jpg");
-    background-color: #cccccc;
-   }
+    background-image: url("../assets/img/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;   
+ 
+}
