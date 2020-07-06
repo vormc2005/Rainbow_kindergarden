@@ -7,11 +7,11 @@ import { Button } from './buttons.model';
   styleUrls: ['./buttons.component.css']
 })
 export class ButtonsComponent implements OnInit {
-
+  english:boolean = true
+  translationValue:string = ""
 @Output() optionClicked = new EventEmitter <string>()
 @Output() translated = new EventEmitter <string>()  
-english:boolean = true
-translationValue = ""
+
 
   buttons: Button[] = [
     new Button('Benefits', 'Why should you choose our daycare?', 'О нашем садике', 'RusDesc'),
@@ -22,7 +22,7 @@ translationValue = ""
 
   ngOnInit() {
   }
-onClick(buttonClicked: string){
+onClick(buttonClicked){
   // console.log(buttonClicked)
 // this.clickedOption = buttonClicked
 
@@ -36,7 +36,7 @@ translatePressed(){
     this.translationValue = "russian"
   }
 this.translated.emit(this.translationValue)
-console.log(this.translationValue)  
+// console.log(this.translationValue)  
 // this.translated.emit(this.english) 
 }
 

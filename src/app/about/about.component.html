@@ -2,7 +2,7 @@
 <app-message></app-message> 
   <!-- Display information about feature pressed(education, games, Benefits) -->
 <app-links-display 
-[infoToDisplay]="buttonTypePressed">
+[infoToDisplay]="buttonTypePressed" [myLanguage]="languageSelected">
 </app-links-display>   
-<app-buttons (optionClicked)="typeToPass($event)"></app-buttons>
+<app-buttons (optionClicked)="typeToPass($event)" (translated)= "translateTo($event)"></app-buttons>
         

@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
   buttonTypePressed = ""
-
+  languageSelected = ""
 
   //  @Output() dataToLinksDisplay = new EventEmitter <string>()
   
@@ -27,6 +27,17 @@ export class AboutComponent implements OnInit {
       this.buttonTypePressed=""
     }
     console.log(this.buttonTypePressed)
+    }
+
+    translateTo(language:string){
+      
+      if (language){
+        this.languageSelected = language
+
+      }else{
+        this.languageSelected ="english"
+      }
+      console.log(language)
     }
 
 }

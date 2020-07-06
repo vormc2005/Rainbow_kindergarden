@@ -7,7 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class LinksDisplayComponent implements OnInit {
 @Input() infoToDisplay: string = ""
-@Input() translatedValue: string =""  
+@Input() myLanguage: string =""
+  
 
   constructor() { }
 
