@@ -1,5 +1,5 @@
 
-<app-message></app-message> 
+<app-message  (translated)= "translateTo($event)" [myLanguage]="languageSelected"></app-message> 
   <!-- Display information about feature pressed(education, games, Benefits) -->
 <app-links-display 
 [infoToDisplay]="buttonTypePressed" [myLanguage]="languageSelected">

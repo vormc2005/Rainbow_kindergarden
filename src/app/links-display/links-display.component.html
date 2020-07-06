@@ -1,24 +1,14 @@
 
-<div class="row displaydata " (click)="resetInfoToDisplay()">
+<div class="row displaydata " (click)="resetInfoToDisplay()" >
 <div class="container "> 
 <app-games *ngIf =" myLanguage !== 'russian' && infoToDisplay === 'Games' "></app-games>
 <app-education *ngIf =" myLanguage !== 'russian' && infoToDisplay === 'Education'  "></app-education>
 <app-benefits *ngIf =" myLanguage !== 'russian' && infoToDisplay === 'Benefits' "></app-benefits>
+<!-- links in russian -->
+<app-games-rus *ngIf =" myLanguage === 'russian' && infoToDisplay === 'Games' "></app-games-rus>
+<app-education-rus *ngIf =" myLanguage === 'russian' &&  infoToDisplay === 'Education'  "></app-education-rus>
+<app-ben-rus *ngIf =" myLanguage === 'russian' &&  infoToDisplay === 'Benefits' "></app-ben-rus>
 </div>  
-<!-- <div class="container " *ngIf = "translatedValue=== 'russian'">     
-    <app-games-rus *ngIf =" infoToDisplay === 'Games' "></app-games-rus>
-    <app-education-rus *ngIf =" infoToDisplay === 'Education' "></app-education-rus>
-    <app-ben-rus *ngIf ="  infoToDisplay === 'Benefits'"></app-ben-rus>
-    
-    </div>  
-</div> -->
-
-<div class="row displaydata " (click)="resetInfoToDisplay()">
-    <div class="container "> 
-    <app-games-rus *ngIf =" myLanguage === 'russian' && infoToDisplay === 'Games' "></app-games-rus>
-    <app-education-rus *ngIf =" myLanguage === 'russian' && infoToDisplay === 'Education'  "></app-education-rus>
-    <app-ben-rus *ngIf =" myLanguage === 'russian' && infoToDisplay === 'Benefits' "></app-ben-rus>
-    </div>  
 
 
    
