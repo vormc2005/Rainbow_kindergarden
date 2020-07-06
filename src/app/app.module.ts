@@ -16,6 +16,8 @@ import { OurstaffComponent } from './ourstaff/ourstaff.component';
 import { BenRusComponent } from './links-display/ben-rus/ben-rus.component';
 import { EducationRusComponent } from './links-display/education-rus/education-rus.component';
 import { GamesRusComponent } from './links-display/games-rus/games-rus.component';
+import { AboutusComponent } from './links-display/aboutus/aboutus.component';
+import { AboutusRusComponent } from './links-display/aboutus-rus/aboutus-rus.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { GamesRusComponent } from './links-display/games-rus/games-rus.component
     OurstaffComponent,
     BenRusComponent,
     EducationRusComponent,
-    GamesRusComponent
+    GamesRusComponent,
+    AboutusComponent,
+    AboutusRusComponent
   ],
   imports: [
     BrowserModule,
