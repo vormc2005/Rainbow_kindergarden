@@ -9,8 +9,10 @@ import { Button } from './buttons.model';
 export class ButtonsComponent implements OnInit {
 
 @Output() optionClicked = new EventEmitter <string>()
-@Output() translated = new EventEmitter <boolean>()  
+@Output() translated = new EventEmitter <string>()  
 english:boolean = true
+translationValue = ""
+
   buttons: Button[] = [
     new Button('Benefits', 'Why should you choose our daycare?', 'О нашем садике', 'RusDesc'),
     new Button('Education', 'What do our kids learn', 'Образовательная программа', "Rusdesc"),
@@ -18,18 +20,24 @@ english:boolean = true
   ];
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 onClick(buttonClicked: string){
   // console.log(buttonClicked)
 // this.clickedOption = buttonClicked
-// console.log(this.clickedOption)
+
 this.optionClicked.emit(buttonClicked)
 }
 translatePressed(){
-this.english = !this.english
-console.log(this.english)  
-this.translated.emit(this.english) 
+  this.english = !this.english
+  if(this.english === true){
+    this.translationValue="english"
+  }else{
+    this.translationValue = "russian"
+  }
+this.translated.emit(this.translationValue)
+console.log(this.translationValue)  
+// this.translated.emit(this.english) 
 }
 
 }

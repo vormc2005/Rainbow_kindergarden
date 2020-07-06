@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class LinksDisplayComponent implements OnInit {
 @Input() infoToDisplay: string = ""
-@Input() translatedValue:boolean  
+@Input() translatedValue: string =""  
 
   constructor() { }
 
@@ -16,7 +16,5 @@ export class LinksDisplayComponent implements OnInit {
   resetInfoToDisplay(){
     this.infoToDisplay = ""
   }
-  show(){
-    console.log(this.translatedValue)
-  }
+  
 }
