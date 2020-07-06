@@ -13,6 +13,9 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { AppRoutingModule } from './app-router.module';
 import { OurstaffComponent } from './ourstaff/ourstaff.component';
+import { BenRusComponent } from './links-display/ben-rus/ben-rus.component';
+import { EducationRusComponent } from './links-display/education-rus/education-rus.component';
+import { GamesRusComponent } from './links-display/games-rus/games-rus.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { OurstaffComponent } from './ourstaff/ourstaff.component';
     MessageComponent,
     AboutComponent,
     ContactComponent,
-    OurstaffComponent
+    OurstaffComponent,
+    BenRusComponent,
+    EducationRusComponent,
+    GamesRusComponent
   ],
   imports: [
     BrowserModule,

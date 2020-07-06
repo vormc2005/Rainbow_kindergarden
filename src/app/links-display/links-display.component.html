@@ -1,8 +1,26 @@
 
 <div class="row displaydata " (click)="resetInfoToDisplay()">
 <div class="container "> 
-<app-games *ngIf ="infoToDisplay === 'Games'"></app-games>
-<app-education *ngIf ="infoToDisplay === 'Education'"></app-education>
-<app-benefits *ngIf ="infoToDisplay === 'Benefits'"></app-benefits>
+<app-games *ngIf =" infoToDisplay === 'Games' "></app-games>
+<app-education *ngIf ="infoToDisplay === 'Education'  "></app-education>
+<app-benefits *ngIf ="infoToDisplay === 'Benefits' "></app-benefits>
+
+<!-- <app-games-rus *ngIf ="infoToDisplay === 'Games' && translatedValue === false"></app-games-rus>
+<app-education-rus *ngIf ="infoToDisplay === 'Education'&& translatedValue === false"></app-education-rus>
+<app-ben-rus *ngIf ="infoToDisplay === 'Benefits'&& translatedValue === false"></app-ben-rus> -->
+
 </div>  
 </div>
+
+
+<!-- <div *ngIf="translatedValue=== false">
+<div class="row displaydata " (click)="resetInfoToDisplay()">
+    <div class="container "> 
+    
+    <app-games-rus *ngIf ="infoToDisplay === 'Games' "></app-games-rus>
+    <app-education-rus *ngIf ="infoToDisplay === 'Education'"></app-education-rus>
+    <app-ben-rus *ngIf ="infoToDisplay === 'Benefits'"></app-ben-rus>
+    
+    </div>  
+    </div>
+</div> -->

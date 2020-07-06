@@ -6,13 +6,16 @@
     <div class="card-body">
     <button  class="card-link"
     (click)="onClick(buttonEl.name)">
-      <h3 class="card-title">{{buttonEl.name}}</h3>
+      <h3 class="card-title">{{english ? buttonEl.name : buttonEl.rusname}}</h3>
      
-      <p class="card-text">{{buttonEl.description}}</p>
+      <p class="card-text">{{english ? buttonEl.description : buttonEl.rusdescription}}</p>
      </button>
      
     </div>
   </div>
 </div> 
+<button class="translation"
+(click) = "translatePressed()">{{!english ? "Translate To English" : "Перевести на русский"}}</button>
 </div>
+
 

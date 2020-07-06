@@ -39,6 +39,16 @@ h3{
 p{
     font-size: 16px;
 }
+.translation{
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Pangolin', cursive;
+    
+}
 
 
 
