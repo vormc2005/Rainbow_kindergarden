@@ -3,11 +3,12 @@ button.card-link{
     width: 200px;
     min-height: 150px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 
 .link-group{ 
-   
+ 
    /* margin-left:50%;   
    transform:translateX(-50%); */
    text-align: center;
@@ -44,12 +45,17 @@ p{
     height: 50px;
     border-radius: 10px;
     margin-top: 50px;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    /* margin-left: 50%;
+    transform: translateX(-50%); */
     font-family: 'Pangolin', cursive;
     font-size: 16px;
+    margin-bottom: 20px;
     
 }
+ img.icon{ 
+    border-radius: 50%;
+ width:25px
+} 
 
 
 

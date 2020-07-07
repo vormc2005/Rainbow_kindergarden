@@ -10,7 +10,10 @@
     background-color: white;
 }
 img.cardImage{
-  max-width: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+  max-width: 80%;
 }
 li{
     font-family: 'Pangolin', cursive;

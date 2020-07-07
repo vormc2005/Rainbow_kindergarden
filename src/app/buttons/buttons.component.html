@@ -15,7 +15,14 @@
   </div>
 </div> 
 <button class="translation"
-(click) = "translatePressed()">{{!english ? "Translate To English" : "Перевести на русский RUS"}}</button>
+(click) = "translatePressed()">{{!english ? "Translate To English - USA " : "Перевести на русский - RUS "}}
+<span *ngIf="english">
+  <img class="icon" src="../../assets/img/russianicon.png"/>
+</span>
+<span *ngIf="!english">
+  <img class="icon" src="../../assets/img/usaicon.png"/>
+</span>
+</button>
 </div>
 
 

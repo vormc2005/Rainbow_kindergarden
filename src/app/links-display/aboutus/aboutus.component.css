@@ -11,9 +11,10 @@
 img.cardImage{
   max-width: 100%;
 }
-li{
+p{
     font-family: 'Pangolin', cursive;
     font-size: 18px;
+    text-align: inherit;
 }
 h2{
     text-align: center;
