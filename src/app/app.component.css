@@ -10,13 +10,12 @@ body{
     background-size: 100% 100%;  
 }
 
-html{
-    height: 100vh;
-    height: 100vh;
-    background-image: url("../assets/img/background1.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;   
-}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
 /* .app{
     width: 50vw;
     height: 100vh;
@@ -32,9 +31,17 @@ html{
     padding: 30px;
     
 } */
-.app {   
+.app {  
+    /* height: 100%;  */
     background-image: url("../assets/img/background1.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;  
+    /* background-repeat: no-repeat; */
+    background-size: cover;  
+    /* max-height: 1000px; */
  
 }
+@media only screen and (max-width: 600px) {
+    .app {
+     background-size: 200% 100%;
+     
+    }
+  }

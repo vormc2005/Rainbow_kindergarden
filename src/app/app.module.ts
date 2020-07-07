@@ -18,6 +18,7 @@ import { EducationRusComponent } from './links-display/education-rus/education-r
 import { GamesRusComponent } from './links-display/games-rus/games-rus.component';
 import { AboutusComponent } from './links-display/aboutus/aboutus.component';
 import { AboutusRusComponent } from './links-display/aboutus-rus/aboutus-rus.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { AboutusRusComponent } from './links-display/aboutus-rus/aboutus-rus.com
     EducationRusComponent,
     GamesRusComponent,
     AboutusComponent,
-    AboutusRusComponent
+    AboutusRusComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
