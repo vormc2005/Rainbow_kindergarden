@@ -12,7 +12,7 @@ import { MessageComponent } from './message/message.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { AppRoutingModule } from './app-router.module';
-import { OurstaffComponent } from './ourstaff/ourstaff.component';
+import { GalleryComponent } from './gallery/gallery.component';
 import { BenRusComponent } from './links-display/ben-rus/ben-rus.component';
 import { EducationRusComponent } from './links-display/education-rus/education-rus.component';
 import { GamesRusComponent } from './links-display/games-rus/games-rus.component';
@@ -32,7 +32,7 @@ import { FooterComponent } from './footer/footer.component';
     MessageComponent,
     AboutComponent,
     ContactComponent,
-    OurstaffComponent,
+    GalleryComponent,
     BenRusComponent,
     EducationRusComponent,
     GamesRusComponent,
