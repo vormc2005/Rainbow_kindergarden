@@ -23,14 +23,12 @@ video.player{
   display: inline-flex;
 } */
 
-img{
-  
+img{  
   width:30rem;
   margin: 3rem;
  border-radius: 10px;
  border:solid grey 2px;
- margin-bottom: 4rem;
- 
+ margin-bottom: 4rem; 
   
 }
 img:hover{
@@ -40,7 +38,7 @@ img:hover{
  border-radius: 10px;
  border:solid grey 2px;
  transition: .5s;
-  
+   
 }
 
 @media only screen and (max-width: 600px) {
