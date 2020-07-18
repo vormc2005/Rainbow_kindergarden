@@ -6,7 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./education.component.css']
 })
 export class EducationComponent implements OnInit {
-
+  educationArr = [ 
+    "We teach our kids Russian literature",
+   "We read well known stories and fairy tales that have educational meanning",     
+    "We teach our children basic Math skills",    
+    "Our kids make Art projects together",
+    "Our children learn music, singing and dancing",  
+    "Our kids learn to play together",    
+    "Our children learn basic social skills on how to communicate with each other",    
+    "We always try to have fun while learning new skills",
+  "We make sure that each and every of our students makes solid porgress and is not left behind in his or her studies"
+]
   constructor() { }
 
   ngOnInit(): void {

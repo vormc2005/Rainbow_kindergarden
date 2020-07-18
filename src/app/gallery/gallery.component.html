@@ -1,37 +1,19 @@
-<p>Under construction</p>
-<div class="row">
-    <div class="column">
-      <img src="wedding.jpg">
-      <img src="rocks.jpg">
-      <img src="falls2.jpg">
-      <img src="paris.jpg">
-      <img src="nature.jpg">
-      <img src="mist.jpg">
-      <img src="paris.jpg">
-    </div>
-    <div class="column">
-      <img src="underwater.jpg">
-      <img src="ocean.jpg">
-      <img src="wedding.jpg">
-      <img src="mountainskies.jpg">
-      <img src="rocks.jpg">
-      <img src="underwater.jpg">
-    </div>
-    <div class="column">
-      <img src="wedding.jpg">
-      <img src="rocks.jpg">
-      <img src="falls2.jpg">
-      <img src="paris.jpg">
-      <img src="nature.jpg">
-      <img src="mist.jpg">
-      <img src="paris.jpg">
-    </div>
-    <div class="column">
-      <img src="underwater.jpg">
-      <img src="ocean.jpg">
-      <img src="wedding.jpg">
-      <img src="mountainskies.jpg">
-      <img src="rocks.jpg">
-      <img src="underwater.jpg">
+
+<div class="container-fluid galerypage">
+<div class="container-fluid videocontainer">
+<video class="player" width="320"  controls>
+  <source src="../../assets/video/37dcb437-5584-4fed-8e21-291daf3e86a6 (2).mov" type="video/mp4">
+  <source src="../../assets/video/d4ccd73d-b69d-42da-9f35-96a9d4c4d1a9 (1).mov" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+</div>
+<div class="container-fluid imgcontainer ">
+
+  <div class="images " *ngFor="let imgEl of kidsImages">
+    <div>
+      <img src="{{imgEl}}">
     </div>
   </div>
+</div>
+</div>

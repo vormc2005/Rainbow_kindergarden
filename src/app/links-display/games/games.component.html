@@ -1,35 +1,16 @@
 <div class="container games">
     <div class="row">
         <div class="col-xs-12 col-md-4 ">
-            <img class="cardImage" src="../../../assets/img/kids_music.gif"/>
+            <img class="cardImage" src="../../../assets/img/kids_music.gif" />
         </div>
-        <div class="col-xs-12 col-md-8 cardText pull-right" >
+        <div class="col-xs-12 col-md-8 cardText pull-right">
 
-    <h2>How do we entertain our children</h2>
-    <ul>
-        <li>
-           We provide toys and games for our kids 
-       </li>
-       
-        <li>
-            We play family-friendly only cartoons to our kids
-        </li>
-        <li>
-            We take our children to play outside on the playground
-        </li>
-        <li>
-            Whenever swimming pool is open we take our them to swim
-        </li>
-        <li>
-           We host end of the week party every Friday (TGIF)
-        </li>
-        <li>
-           We host birthdays for each of our students. They absolutley love that
-        </li>
-        <li class="punchline">
-            Our kids have afternoon nap time, so they can recharge
-        </li>
-    </ul>
+            <h2>How do we entertain our children</h2>
+            <ul *ngFor="let gamesEl of gamesArr">
+                <li>
+                    {{gamesEl}}
+                </li>
+            </ul>
         </div>
     </div>
 </div>

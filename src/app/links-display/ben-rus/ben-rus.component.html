@@ -1,36 +1,18 @@
-
 <!-- Text for benefits goes here -->
 
 <div class="container benefits">
     <div class="row">
         <div class="col-xs-12 col-md-6 ">
-            <img class="cardImage" src="../../../assets/img/kids_playing_rainbow.png"/>
+            <img class="cardImage" src="../../../assets/img/kids_playing_rainbow.png" />
         </div>
-        <div class="col-xs-12 col-md-6 cardText pull-right" >
+        <div class="col-xs-12 col-md-6 cardText pull-right">
 
-    <h2>Benefits In Russian</h2>
-    <ul>
-        <li>
-            Russian
-       </li>
-       
-       <li>
-        Russian
-   </li>
-   <li>
-    Russian
-</li>
-<li>
-    Russian
-</li>
-        
-<li>
-    Russian
-</li>
-<li>
-    Russian
-</li>
-    </ul>
+            <h2>Benefits In Russian</h2>
+            <ul *ngFor="let benefitEl of benefitsArr">
+                <li>
+                    {{benefitEl}}
+                </li>
+            </ul>
         </div>
     </div>
 </div>

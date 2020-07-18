@@ -3,7 +3,7 @@ button.card-link{
     width: 200px;
     min-height: 150px;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 
@@ -18,14 +18,16 @@ button.card-link{
 .descriptionLinks{
    
     display: inline-flex;   
-    min-height: 100px;   
+    min-height: 15rem;   
     text-align: center;
-    margin: 20px; 
-    text-decoration: none;   
+    margin: 1rem;
+    text-decoration: none;
+    margin-bottom: 2rem;
+      
    
 } 
 .link-group{
-    /* margin-bottom:10; */
+    margin-bottom:10;
     /* position:sticky; */
     bottom:0;
     /* margin-top: 100px; */
@@ -38,13 +40,14 @@ h3{
     font-weight: bolder;
 }
 p{
-    font-size: 16px;
+    font-size: 1rem;
+    flex-wrap: wrap;
 }
 .translation{
     width: 60%;
     height: 50px;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 0;
     /* margin-left: 50%;
     transform: translateX(-50%); */
     font-family: 'Pangolin', cursive;
@@ -56,6 +59,9 @@ p{
     border-radius: 50%;
  width:25px
 } 
+/* .card-body{
+    margin:100px
+} */
 
 
 

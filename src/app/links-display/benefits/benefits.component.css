@@ -1,24 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 
+
 .benefits{
-   
+    z-index: 5px;
+    background-color: white;
     
     border: black 1px solid;
     border-radius: 10px;
-    z-index: 5px;
-    background-color: white;
 }
 img.cardImage{
-    margin-left: 50%;
-    transform: translateX(-50%);
-    margin-top: 30px;
   max-width: 100%;
-  border-radius: 10px;
 }
 li{
     font-family: 'Pangolin', cursive;
     font-size: 18px;
+    text-align: justify;
 }
 h2{
     text-align: center;

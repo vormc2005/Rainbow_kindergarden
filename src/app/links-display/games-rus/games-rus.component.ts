@@ -6,7 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./games-rus.component.css']
 })
 export class GamesRusComponent implements OnInit {
-
+gamesArr =[
+  "Russian",
+  "Russian",
+  "Russian",
+  "Russian",
+  "Russian",
+  "Russian",
+  "Russian"
+]
   constructor() { }
 
   ngOnInit(): void {

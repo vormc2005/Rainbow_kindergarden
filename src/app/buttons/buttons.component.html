@@ -1,28 +1,22 @@
-
-
 <div class="container link-group">
-<div class="descriptionLinks" *ngFor="let buttonEl of buttons">
-<div class="card clearfix" style= "height: 100px;">
-    <div class="card-body">
-    <button  class="card-link"
-    (click)="onClick(buttonEl.name)">
-      <h3 class="card-title">{{english ? buttonEl.name : buttonEl.rusname}}</h3>
-     
-      <p class="card-text">{{english ? buttonEl.description : buttonEl.rusdescription}}</p>
-     </button>
-     
+  <div class="descriptionLinks" *ngFor="let buttonEl of buttons">
+    <div class="card clearfix" style="height: 100px;">
+      <div class="card-body">
+        <button class="button card-link" (click)="onClick(buttonEl.name)">
+          <h3 class="card-title">{{english ? buttonEl.name : buttonEl.rusname}}</h3>
+
+          <p class="card-text">{{english ? buttonEl.description : buttonEl.rusdescription}}</p>
+        </button>
+      </div>
     </div>
   </div>
-</div> 
-<button class="translation"
-(click) = "translatePressed()">{{!english ? "Translate To English - USA " : "Перевести на русский - RUS "}}
-<span *ngIf="english">
-  <img class="icon" src="../../assets/img/russianicon.png"/>
-</span>
-<span *ngIf="!english">
-  <img class="icon" src="../../assets/img/usaicon.png"/>
-</span>
-</button>
+  <button class="translation"
+    (click)="translatePressed()">{{!english ? "Translate To English - USA " : "Перевести на русский - RUS "}}
+    <span *ngIf="english">
+      <img class="icon" src="../../assets/img/russianicon.png" />
+    </span>
+    <span *ngIf="!english">
+      <img class="icon" src="../../assets/img/usaicon.png" />
+    </span>
+  </button>
 </div>
-
-

@@ -6,7 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./education-rus.component.css']
 })
 export class EducationRusComponent implements OnInit {
+  educationArr = [
+    "Russian",
+    "Russian",
+    "Russian",
+    "Russian",
+    "Russian",
+    "Russian",
+    "Russian"
 
+
+  ]
   constructor() { }
 
   ngOnInit(): void {
