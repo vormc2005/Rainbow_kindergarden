@@ -8,62 +8,25 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url("../assets/img/background1.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;  
-}
 
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
-/* .app{
-    width: 50vw;
-    height: 100vh;
-} */
 
-/* body{
-   
 
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.7;
-    color: #777;
-    padding: 30px;
-    
-} */
+
 
 
 .app{
-   
-        background-image:  url('../assets/img/backgroundmain.png') ;
-        background-position: right top;
-        background-repeat: no-repeat, repeat;
         
+        background-image:  url('../assets/img/combo-back.jpg') ;
+        background-size: cover;
+        background-repeat: no-repeat; 
+              
       
 }
-/* .app1{
-   
-    background-image:  url('../assets/img/backgroundmain.png') ;
-    background-position:  left bottom;
-    background-repeat: no-repeat, repeat;
-    
-  
-} */
-/* .app {  
-   
-    background-image: url("../assets/img/background1.jpg");
-    
-    background-size: cover;  
-    
- 
-} */
+
 @media only screen and (max-width: 600px) {
     .app {
-     background-size: 200% 100%;
+     background-size: 250% 150%;
      
     }
   }

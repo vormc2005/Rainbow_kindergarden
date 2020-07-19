@@ -1,3 +1,8 @@
+.contactpage{
+    margin:0;
+    height: 100vh;
+}
+
 .contactinfo{ 
 background-color: white;
 opacity: .95;
@@ -9,8 +14,8 @@ border: 1px black solid;
  width: 350px;
  padding: 10px;
 border-radius: 5px;
-margin-bottom: 100px;
-    
+/* margin-bottom: 30rem; */
+   
 }
 h2{
     text-align: center;

@@ -3,26 +3,33 @@
     /* width: 80%;       */
     margin-left:50%;   
     transform:translateX(-50%);
-    text-align: center;   
+    text-align: inherit;   
     margin-top: 0;
     margin-bottom: 0;  
     display: inline-block;
     background-color:rgb(248, 248, 248, 0.9);
     border-radius: 10px;
-    padding: 5px;
+    /* padding: 5px; */
     
 }
-
+.imgdiv{
+text-align: center;
+}
 img{
-  margin-left: 20%;
 
-  border-radius: 50% 50%;
-  margin-top: 60%;
-  transform: translateY(-50%);
+  /* float: left; */
+  height:20rem;
+  margin-top: 0;
+  border-radius: 15px;
+  padding: 1rem 0;
   
 }
 p{
+  margin-top: 3rem;
   font-size: 16px;
   
+}
+h3{
+  text-align: center;
 }
 

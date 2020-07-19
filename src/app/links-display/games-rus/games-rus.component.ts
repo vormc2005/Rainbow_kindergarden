@@ -7,13 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GamesRusComponent implements OnInit {
 gamesArr =[
-  "Russian",
-  "Russian",
-  "Russian",
-  "Russian",
-  "Russian",
-  "Russian",
-  "Russian"
+  "Танцы и песни",
+  "Развивающие игры ",
+  "игрушки",
+  "2-х разовые прогулки и игры на площадке",
+  "Плавание в басейне,когда басейн отрыт",
+  "Проведение дней рождений",
+  "Празднование каждую пятницу",
+  "поделки"
 ]
   constructor() { }
 
