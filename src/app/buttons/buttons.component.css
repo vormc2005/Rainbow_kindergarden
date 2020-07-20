@@ -22,9 +22,14 @@ button.card-link{
     text-decoration: none;
     margin-bottom: 2rem;
    
-      
-   
 } 
+@media only screen and (max-width: 1200px) {
+   .descriptionLinks .card-body .card-link, .translation{
+     transform:  scale(0.75);
+     margin:0.5rem;
+    }
+  }
+
 .link-group{
     margin-bottom:2rem;
    
@@ -37,14 +42,14 @@ h3{
     font-weight: bolder;
 }
 p{
-    font-size: 1rem;
+    font-size: 1.1em;
     flex-wrap: wrap;
 }
 .translation{
     width: 60%;
     height: 50px;
     border-radius: 10px;
-    margin-top: 0;
+    margin-top: 1em;
     /* margin-left: 50%;
     transform: translateX(-50%); */
     font-family: 'Pangolin', cursive;
