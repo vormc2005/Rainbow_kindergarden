@@ -33,4 +33,4 @@ This App was built for a local in home kids learning center. The eniqueness of t
 Web application cosists of three routes. First route is About, where user can view inormation about learning center in both Russian and English languages. Second route is gallery, where user can view fotos and video. Third page is contact page that is linked to e-mail. 
 For future development, we will be adding login route where member staff of the learning center will be able to update a message on the web site and upload new photos and videos. And may send information from customers that are trying to contact through our contact form.   
 
-Whole UI UX was developed by Dmitry Voronov 
+Whole UI UX was developed by Dmitry Voronov
