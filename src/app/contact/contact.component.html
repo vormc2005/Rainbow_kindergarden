@@ -8,35 +8,19 @@
        <p>Location: 21781 Findon ct, Ashburn, VA 20147</p> 
        <p>Phone: (301)523-0116</p>
        <p>Email: alic98@gmail.com</p>
-       
-    <form 
-        action='mailto:voronov.dmitry@gmail.com'
-        method='POST'       
-        enctype='multipart/form-data'       
-        name='EmailTestForm'>
-       <br>
        <div class="formarea">
-       <label>Name: </label> 
-       <br>      
-       <input 
-            type='text' 
-            size='28' 
-            name='VisitorName'>
-       <br>
-       <label>Message:</label>
-       <br>
-       <textarea 
-            name='VisitorComment' 
-            rows='4' 
-            cols='30'>       
-       </textarea> 
-       <br>
-       <input 
-            type='submit' 
-            value='Submit'> 
-          </div>
-    </form>
-
+       <form action="mailto:alic98@gmail.com" method="post" enctype="text/plain">
+          Name:<br>
+          <input type="text" name="name"><br>
+          E-mail:<br>
+          <input type="text" name="mail"><br>
+          Message:<br>
+          <textarea type="text" name="comment" rows= "3" cols="25"></textarea>
+          <br><br>
+          <input type="submit" value="Send" class="buttons btn btn-primary">
+          <input type="reset" value="Reset" class="buttons btn ">
+          </form>
+     </div>
     <!-- </div> -->
     <!-- </div>  -->
 </div> 

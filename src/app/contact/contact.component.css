@@ -27,8 +27,16 @@ p, h2 {
     margin-left: 20px;
 }
 .formarea{
-    margin-left: 20px;
+    /* margin-left: 30px; */
+    text-align: center;
+    
 }
 textarea, input{
     border: 1px rgb(134, 134, 134) solid;
+    width:  80%;
+   
+}
+.buttons{
+    margin: 0.5rem;
+    width: 30%;
 }
