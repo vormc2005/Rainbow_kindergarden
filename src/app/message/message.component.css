@@ -13,9 +13,13 @@
     
 }
 
+div.imgdiv{
+  text-align: center;
+}
+
 img{
   
-  
+ 
  padding-top: 0.5rem;
  padding-bottom: 0.5rem;
   height:20rem;
