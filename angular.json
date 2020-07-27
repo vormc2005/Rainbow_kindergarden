@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Rainbow"
+    }
+  },
+  "defaultProject": "Rainbow",
+  "cli": {
+    "analytics": false
+  }
 }
